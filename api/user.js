@@ -1,6 +1,6 @@
 var express = require('express')
 var router = express.Router()
-var User = require('../module/user.js.js')
+var User = require('../module/user')
 
 router.get('/all', async function (req, res) {
     try {
